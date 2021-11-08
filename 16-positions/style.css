@@ -1,0 +1,77 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    height: 300vh;
+}
+
+.container{
+    width: 450px;
+    height: 530px;
+    margin: 20px auto;
+    border: 5px solid crimson;
+    position: relative;
+}
+
+.box{
+    background: steelblue;
+    width: 100px;
+    height: 100px;
+    margin-top: 20px;
+    margin-left: 20px;
+    line-height: 100px;
+    text-align: center;
+    color: white;
+    font-weight: bold;
+}
+
+.static{
+    position: static;
+}
+
+.relative{
+    background: crimson;
+    position: relative;
+    /* bottom: 40px; */
+    /* left: 20px; */
+    /* z-index: 0; */
+    /* bottom: 100px; */
+    /* top: 25%; */
+    /* top: 250px; */
+    /* left: 275px; */
+}
+
+.absolute{
+    background: purple;
+    position: absolute;
+    margin: 0;
+    top: 0;
+    right: 0;
+    /* top: 150px;
+    left: 60px; */
+    /* z-index: 1; */
+}
+
+.fixed{
+    width: 100%;
+    background: darkcyan;
+    /* background: teal; */
+    position: fixed;
+    bottom: 10px;
+    right: 0;
+    margin: 0;
+}
+
+.fixed a{
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 2rem;
+}
+
+.fixed a:hover{
+    text-decoration: underline;
+}

@@ -1,0 +1,87 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: 'Kurale', serif;
+}
+
+.card{
+    /* background-color: #2a265f; */
+    background-image: linear-gradient(1deg, #454a4da2 0%, #cad7e7a2 99%, #c8d5e5a2 100%), url(./quito.jpg);
+    background-size: cover;
+    background-position: center;
+    width: 400px;
+    color: white;
+    padding: 20px;
+    margin: 40px auto;
+    border-radius: 5px;
+    box-shadow: 5px 5px 10px #454a4d80;
+}
+
+.title{
+    font-size: 30px;
+    border-bottom: 3px solid #fff;
+    text-align: center;
+    padding: 7px 0;
+    margin-bottom: 30px;
+}
+
+.text{
+    font-weight: 300;
+    margin-bottom: 15px;
+}
+.bold{
+    font-weight: bold;
+}
+.cta{
+    text-align: center;
+    background: #2a265f;
+    display: block;
+    width: 150px;
+    padding: 10px 0;
+    color: white;
+    text-decoration: none;
+    margin: 0 auto;
+}
+
+.container{
+    background: white;
+    width: 70%;
+    padding: 20px;
+    margin: 30px auto;
+    /* height: 500px; */
+    box-shadow: 5px 5px 10px rgba(0,0, 0,0.25);
+}
+
+.h1{
+    text-align: center;
+    /* line-height: 460px; */
+}
+
+.copy{
+    /* text-align: justify; */
+    padding: 20px 0;
+    /* letter-spacing: -1.5px; */
+    /* word-spacing: 5px; */
+    /* text-shadow: 3px 3px 5px #00000050; */
+    /* text-transform: none; */
+}
+
+/* .bold{
+    color: crimson;
+    font-weight: bold;
+} */
+
+.enlace{
+    background: crimson;
+    color: white;
+    display: block;
+    margin: 0 auto;
+    padding: 10px 0;
+    text-align: center;
+    text-decoration: none;
+    width: 150px;
+}

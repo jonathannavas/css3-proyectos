@@ -1,0 +1,50 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+.box{
+    background: teal;
+    height: 150px;
+    margin: 0 auto;
+    margin-top: 75px;
+    width: 300px ;
+    border-radius: 5px 0 0 5px;
+    border-left: 5px solid darksalmon;
+}
+
+.card {
+    margin: 75px auto;
+    max-width: 300px;
+    height: auto;
+    border: 1px solid black;
+    padding: 25px 0;
+}
+
+.img{
+    border-radius: 50%;
+    display: block;
+    height: 200px;
+    margin: 20px auto;
+    object-fit: cover;
+    width: 200px;
+    /* border: 10px groove gray; */
+}
+
+.cta{
+    display: block;
+    width: 125px;
+    margin: 0 auto;
+    background: crimson;
+    border-radius: 3px;
+    color: white;
+    padding: 15px 0;
+    text-decoration: none;
+    text-align: center;
+}
+.name{
+    text-align: center;
+    margin: 15px 0;
+    color: dimgrey;
+}
