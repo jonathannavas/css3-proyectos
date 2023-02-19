@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Menu animado</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <nav class="menu">
+      <input type="checkbox" id="check" class="menu__checked" />
+      <label for="check" class="menu__label">
+        <img
+          src="assets/close.svg"
+          class="menu__hamburguer menu__hamburguer--hidden"
+          alt="image"
+        />
+        <img
+          src="assets/menu.svg"
+          class="menu__hamburguer menu__hamburguer--show"
+          alt="image"
+        />
+      </label>
+      <div class="menu__links">
+        <a href="#" class="menu__link">Inicio</a>
+        <a href="#" class="menu__link">Acerca de</a>
+        <a href="#" class="menu__link">Contacto</a>
+      </div>
+    </nav>
+    <section class="grid">
+      <img src="./assets/img.jpg" alt="image" class="grid__img" />
+      <div class="grid__texts">
+        <h2 class="grid__title">Mensaje de prueba</h2>
+        <div class="grid__paragraphs">
+          <p class="grid__paragraph">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Temporibus,
+            nemo! Totam, culpa impedit vitae numquam ullam aspernatur corrupti
+            quis sapiente nobis accusamus nulla minus earum iste voluptatem
+            atque! Voluptate, maxime!
+          </p>
+          <p class="grid__paragraph">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Temporibus,
+            nemo! Totam, culpa impedit vitae numquam ullam aspernatur corrupti
+            quis sapiente nobis accusamus nulla minus earum iste voluptatem
+            atque! Voluptate, maxime!
+          </p>
+        </div>
+        <a href="#" class="cta">Entra ahora</a>
+      </div>
+    </section>
+  </body>
+</html>
